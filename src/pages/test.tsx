@@ -63,7 +63,11 @@ const TargetWithNames = forwardRef((props, ref) => {
         <div ref={div3} className="h-[500px] w-full bg-[pink]"></div>
         <div ref={div4} className="h-[500px] w-full bg-[orange]"></div>
       </div>
-      <div id="v" ref={div2} className="w-[20%] absolute top-0 right-0 z-10 h-[100%]">
+      <div
+        id="v"
+        ref={div2}
+        className="w-[20%] absolute top-0 right-0 z-10 h-[100%]"
+      >
         <h1 className="text-[100px]">hello</h1>
       </div>
     </div>
